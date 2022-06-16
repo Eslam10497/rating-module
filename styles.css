@@ -1,0 +1,152 @@
+/* HTML Elements Section  */
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+}
+h3 {
+  color: #fff;
+}
+a {
+  color: #fff;
+}
+
+/* Classes Section */
+
+/* General classes */
+.disappear {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+/* First page section */
+
+.component {
+  background: linear-gradient(
+    170deg,
+    hsl(213, 19%, 18%, 1),
+    hsl(213, 19%, 18%, 0.1) 95%
+  );
+
+  width: 30%;
+  margin: 7% auto;
+  border-radius: 7%;
+  text-align: left;
+  padding: 3%;
+}
+.title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+.circle {
+  border-radius: 100%;
+  background-color: hsl(216, 12%, 54%, 0.1);
+}
+.star {
+  width: 15%;
+  padding: 4%;
+  margin: 5% 0.5%;
+}
+.text {
+  margin-bottom: 8%;
+}
+.rate-us {
+  text-align: left;
+}
+.rate {
+  display: inline-block;
+  padding: 2%;
+  width: 15%;
+  height: 5%;
+  font-size: 20px;
+  margin-left: 5%;
+}
+.sel {
+  color: hsl(217, 12%, 63%);
+}
+.sel:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.num {
+  color: inherit;
+}
+
+#one {
+  margin-left: 0;
+}
+.num {
+  position: relative;
+  top: 10px;
+}
+
+.submit {
+  margin-top: 10%;
+}
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 28px;
+  padding: 10px 40%;
+  color: #fff;
+}
+.btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+}
+.highlight {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+/* Second Page */
+
+.thanks-img {
+  margin: 7%;
+}
+.your-rating {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 28px;
+  display: inline-block;
+  margin: 1% auto 5%;
+  width: 55%;
+  height: 20px;
+  padding: 5%;
+}
+.rating-text {
+  color: hsl(25, 97%, 53%);
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+}
+.paragraph {
+  width: 92%;
+}
+
+/* Attribute Section */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 480px) {
+  .component {
+    width: 80%;
+    margin: 60% auto;
+  }
+  .your-rating {
+    width: 80%;
+  }
+}
