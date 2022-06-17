@@ -141,7 +141,7 @@ a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .component {
     width: 80%;
     margin: 60% auto;
